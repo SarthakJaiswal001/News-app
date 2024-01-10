@@ -1,16 +1,43 @@
-# flutter_application_1
+# Flutter News App
 
-A new Flutter project.
+This Flutter application fetches news articles from various sources using API calls and presents them in an organized interface.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **API Integration:** Fetches news data from external APIs.
+- **Categorized News:** Displays articles based on different categories (e.g., technology, business, sports).
+- **Detailed Articles:** Shows headlines, descriptions, and images for each article.
+- **User-Friendly Interface:** Intuitive design for easy navigation and readability.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Clone
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone this repository to your local machine:
+git clone https://github.com/yourusername/your-repo.git
+
+
+
+## Setup
+Navigate to the project directory and install dependencies:
+
+ cd your-repo
+ flutter pub get
+
+## Run
+Run the app on an emulator or a connected device:
+
+ flutter run
+
+## API Usage
+This app utilizes the newsapi.org API for fetching news data. To use this app, you'll need an API key from NewsAPI. Follow these steps:
+
+1. Sign up at newsapi.org.
+2. Generate an API key for accessing news data.
+3. Open the project and locate api_config.dart.
+4. Replace API_KEY with your actual API key.
+
+Note: Keep your API key secure and avoid sharing it publicly.
+
+## Contact
+For inquiries or feedback, contact Sarthak Jaiswal via email at sarthakj918@gmail.com.
